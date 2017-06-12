@@ -5,7 +5,7 @@
  }
  
  a {
-     color: white
+     color: white;
  }
  
  p {
@@ -63,4 +63,6 @@
      margin: auto;
      
  }
- 
+ #hstatPic{
+  margin-top: 80px;
+ }
