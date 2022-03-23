@@ -1,0 +1,96 @@
+html, body {
+    min-height: 100%;
+}
+.classyDiv{
+    height: 50vh;
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: center; 
+    overflow: hidden;
+    text-align: center;
+}
+.classyDiv img {
+    max-height: 90%;
+    max-width: 90%;
+    border-radius: 50%;
+}
+
+.in{
+    padding: 30px;
+    margin: 2px;
+    border-radius: 25px;
+    background-color: white;
+}
+#quadOne{
+    background: #1B4965 ;
+}
+
+#quadTwo{
+    padding: 0%;
+    background: #539987 ;
+}
+
+#quadThree{
+    background: #1B4965 ;   
+}
+
+@media (max-width: 767.98px) { 
+    #quadThree{
+        height: 65vh;
+    }
+}
+#quadFour{
+    background: #F7CB15 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#projects{
+    background-color:#f0810f;
+    /* box-shadow: -10px -10px 40px #063852; */
+}
+#projects h2{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.project{
+    text-align: center;
+    background-color:#f0810f;
+    margin: 7px auto;
+    border: 0px;
+}
+.project img{
+    border-radius: 10px;
+}
+.project img:hover{
+    opacity: 1;
+}
+.project a{
+    color:white;
+    text-decoration: none;
+}
+.project a:hover{
+    text-decoration: underline;
+}
+#navName img{
+    border-radius: 50%;
+}
